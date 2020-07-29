@@ -1,0 +1,27 @@
+{
+  "title": "Power Apps Sample Tour",
+  "steps": [
+    {
+      "title": "Introduction",
+      "description": "This repo contain Power Apps Component Framework Samples.\r\n\r\n**Below are the prequisites**\r\n1. [Node.js](https://nodejs.org/en/) (comes with npm). We recommend LTS (Long Term Support) version 10.15.3 or higher.\r\n2. [.NET Framework 4.6.2 Developer Pack](https://dotnet.microsoft.com/download/dotnet-framework/net462)\r\n3. [.NET Core 3.1 SDK](https://dotnet.microsoft.com/download/dotnet-core/current)\r\n4. [Power Apps CLI](https://aka.ms/PowerAppsCLI)\r\n5. [Visual Studio Code](https://code.visualstudio.com/Download)\r\n\r\nPower Apps CLI is currently supported in Windows 10."
+    },
+    {
+      "title": "IncrementControl",
+      "description": "We are going to start with a simple PCF Component: Increment Control."
+    },
+    {
+      "file": "component-framework/TS_IncrementControl/package.json",
+      "description": "We will first install the npm dependencies\r\n\r\n>> npm install",
+      "selection": {
+        "start": {
+          "line": 11,
+          "character": 1
+        },
+        "end": {
+          "line": 18,
+          "character": 4
+        }
+      }
+    }
+  ]
+}
